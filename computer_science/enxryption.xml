@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<encryption xmlns="http://schemas.microsoft.com/office/2006/encryption"
+    xmlns:p="http://schemas.microsoft.com/office/2006/keyEncryptor/password"
+    xmlns:c="http://schemas.microsoft.com/office/2006/keyEncryptor/certificate">
+    <keyData saltSize="16" blockSize="16" keyBits="256" hashSize="64" cipherAlgorithm="AES"
+        cipherChaining="ChainingModeCBC" hashAlgorithm="SHA512" saltValue="PxAs0lxLvBdIEPTpF8QKJw==" />
+    <dataIntegrity
+        encryptedHmacKey="0dXpWSNIMezrWJNn/6LqDw7Vhqm/0Q0SLw5Kpn7XNx2FmN5YHKhi6ST893A08vO/74wE/w+KAcFTvSsUTmap3Q=="
+        encryptedHmacValue="QHVMMmI9jjdAJ+zTuIHUtAbiiQ9r9vFPK3vpWPXsFU8TU0fJv2U8u1bZBw6l3xTHuU6Ip0WFNklDjalXW0+yFg==" />
+    <keyEncryptors>
+        <keyEncryptor uri="http://schemas.microsoft.com/office/2006/keyEncryptor/password">
+            <p:encryptedKey spinCount="100000" saltSize="16" blockSize="16" keyBits="256" hashSize="64"
+                cipherAlgorithm="AES" cipherChaining="ChainingModeCBC" hashAlgorithm="SHA512"
+                saltValue="L79czwEJThxr9UgTG6wxlg==" encryptedVerifierHashInput="Kv4WQmyDV19lb/T0B3TjpQ=="
+                encryptedVerifierHashValue="aY19qPLvrUnTdoAlLSta5PVBbcT9g9FJP4mv3aLnOZur4PO57g6rGzRtjwqPKc0U9ikb3Df0dBu3uje8iUp7OA=="
+                encryptedKeyValue="vEbtQqLPbzmZpomSBc4HWzH8uNgfeheDCUmZAd7KE4M=" />
+        </keyEncryptor>
+    </keyEncryptors>
+</encryption>
